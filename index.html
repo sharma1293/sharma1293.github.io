@@ -286,11 +286,12 @@
         <h2>Get in Touch</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/siddharthsharma1293@gmail.com">
+                <!--<div class="g-recaptcha" data-sitekey="6LfiY24UAAAAAJiaa-bgA7ysvJK_PPIHjp_Yov-m"></div>-->
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
                 <button type="submit">Send</button>
-                <div class="g-recaptcha" data-sitekey="6LfiY24UAAAAAJiaa-bgA7ysvJK_PPIHjp_Yov-m"></div>
             </form>
             <script>
                 var contactform =  document.getElementById('contact-form');
